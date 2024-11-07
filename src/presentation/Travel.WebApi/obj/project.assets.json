@@ -75,6 +75,56 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Travel.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Travel.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Travel.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Travel.Application.dll": {}
+        }
+      },
+      "Travel.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Travel.Application": "1.0.0",
+          "Travel.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Travel.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Travel.Data.dll": {}
+        }
+      },
+      "Travel.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Travel.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Travel.Domain.dll": {}
+        }
+      },
+      "Travel.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Travel.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Travel.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Travel.Shared.dll": {}
+        }
       }
     }
   },
@@ -185,11 +235,34 @@
         "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Travel.Application/1.0.0": {
+      "type": "project",
+      "path": "../../core/Travel.Application/Travel.Application.csproj",
+      "msbuildProject": "../../core/Travel.Application/Travel.Application.csproj"
+    },
+    "Travel.Data/1.0.0": {
+      "type": "project",
+      "path": "../../infrastructure/Travel.Data/Travel.Data.csproj",
+      "msbuildProject": "../../infrastructure/Travel.Data/Travel.Data.csproj"
+    },
+    "Travel.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../core/Travel.Domain/Travel.Domain.csproj",
+      "msbuildProject": "../../core/Travel.Domain/Travel.Domain.csproj"
+    },
+    "Travel.Shared/1.0.0": {
+      "type": "project",
+      "path": "../../infrastructure/Travel.Shared/Travel.Shared.csproj",
+      "msbuildProject": "../../infrastructure/Travel.Shared/Travel.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Swashbuckle.AspNetCore >= 5.6.3"
+      "Swashbuckle.AspNetCore >= 5.6.3",
+      "Travel.Application >= 1.0.0",
+      "Travel.Data >= 1.0.0",
+      "Travel.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -216,7 +289,17 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\DEVELOPMENT\\C#\\PROJECTS\\Travel\\src\\core\\Travel.Application\\Travel.Application.csproj": {
+              "projectPath": "D:\\DEVELOPMENT\\C#\\PROJECTS\\Travel\\src\\core\\Travel.Application\\Travel.Application.csproj"
+            },
+            "D:\\DEVELOPMENT\\C#\\PROJECTS\\Travel\\src\\infrastructure\\Travel.Data\\Travel.Data.csproj": {
+              "projectPath": "D:\\DEVELOPMENT\\C#\\PROJECTS\\Travel\\src\\infrastructure\\Travel.Data\\Travel.Data.csproj"
+            },
+            "D:\\DEVELOPMENT\\C#\\PROJECTS\\Travel\\src\\infrastructure\\Travel.Shared\\Travel.Shared.csproj": {
+              "projectPath": "D:\\DEVELOPMENT\\C#\\PROJECTS\\Travel\\src\\infrastructure\\Travel.Shared\\Travel.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

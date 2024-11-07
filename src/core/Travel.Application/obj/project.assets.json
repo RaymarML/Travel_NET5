@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETStandard,Version=v2.1": {}
+    ".NETStandard,Version=v2.1": {
+      "Travel.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Travel.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Travel.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Travel.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Travel.Domain/Travel.Domain.csproj",
+      "msbuildProject": "../Travel.Domain/Travel.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETStandard,Version=v2.1": []
+    ".NETStandard,Version=v2.1": [
+      "Travel.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Raymar\\.nuget\\packages\\": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\DEVELOPMENT\\C#\\PROJECTS\\Travel\\src\\core\\Travel.Domain\\Travel.Domain.csproj": {
+              "projectPath": "D:\\DEVELOPMENT\\C#\\PROJECTS\\Travel\\src\\core\\Travel.Domain\\Travel.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
