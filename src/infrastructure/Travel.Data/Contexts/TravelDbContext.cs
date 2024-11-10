@@ -11,6 +11,6 @@ namespace Travel.Data.Contexts
         }
 
         public DbSet<TourList> TourLists { get; set; }
-        public DbSet<TourPackage> tourPackages { get; set; }
+        public DbSet<TourPackage> TourPackages { get; set; }
     }
 }
