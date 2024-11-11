@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "1BE6rjnnX5z0Yo9BLO12/4zPhwLqN+oRGeSkowvyq1CU/tnMb7ZmB9w7UkFxLFGLRKZ0/mdymaVOLMl6b9mKXw==",
+  "dgSpecHash": "1kUeYnINzUcN1HTOUugxLEv/ty4MF+FbPCytvhjnHAX9rhUEUj8MPxhqXZWJZaT4lEs4YjHQOY3YDoQ241R/nA==",
   "success": true,
   "projectFilePath": "D:\\DEVELOPMENT\\C#\\PROJECTS\\Travel\\src\\infrastructure\\Travel.Data\\Travel.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Raymar\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\Raymar\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\Raymar\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.7\\microsoft.data.sqlite.core.5.0.7.nupkg.sha512",
     "C:\\Users\\Raymar\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
     "C:\\Users\\Raymar\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.7\\microsoft.entityframeworkcore.5.0.7.nupkg.sha512",

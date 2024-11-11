@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "MnG5WoOdCrSIIhvGWxf5Ro59yaoiFTYQ7yjsBzyZs24SmBQrtvWD9W/KeV2VCHlTPlRla2UKa6Xf4PrJ9G1NPQ==",
+  "dgSpecHash": "ynvvBB7AVYsR1A8UBxL7nfdnzjwLzQjjCckgSZbiqDMgD+FOEOcmdEZmSQUhHb8aR4IK0ye5qMupVEz7VXv6nQ==",
   "success": true,
   "projectFilePath": "D:\\DEVELOPMENT\\C#\\PROJECTS\\Travel\\src\\core\\Travel.Application\\Travel.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Raymar\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\Raymar\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+    "C:\\Users\\Raymar\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\Raymar\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
