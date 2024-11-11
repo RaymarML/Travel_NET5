@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "1kUeYnINzUcN1HTOUugxLEv/ty4MF+FbPCytvhjnHAX9rhUEUj8MPxhqXZWJZaT4lEs4YjHQOY3YDoQ241R/nA==",
+  "dgSpecHash": "Z1U4KYf1K7l6BZPLiNC2lg2MkrrOe4i8iIoVF59+5aKu6Qe1XkYQLNqRYv1bxgfwgvTcntmPlu1umrSFfokJ5A==",
   "success": true,
   "projectFilePath": "D:\\DEVELOPMENT\\C#\\PROJECTS\\Travel\\src\\infrastructure\\Travel.Data\\Travel.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Raymar\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512",
+    "C:\\Users\\Raymar\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.2.3\\fluentvalidation.dependencyinjectionextensions.10.2.3.nupkg.sha512",
     "C:\\Users\\Raymar\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\Raymar\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\Raymar\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.7\\microsoft.data.sqlite.core.5.0.7.nupkg.sha512",

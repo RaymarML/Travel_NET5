@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "jHNNoDONwL0Sk9Z0EGJHiALpS08Mjt+w9k3PKTo3qxidi/lSYjH45KqfReHU3ZycQNSDaQ64fe0W1MXjwX/8mQ==",
+  "dgSpecHash": "bzEpa68xZCDAY7S229mj6a/A/xt32d70fD0BlKrhPvldt9dspfb3TTj7ttF8NABLVpBjTDSvJfxnLftAjMsuug==",
   "success": true,
   "projectFilePath": "D:\\DEVELOPMENT\\C#\\PROJECTS\\Travel\\src\\infrastructure\\Travel.Shared\\Travel.Shared.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Raymar\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512",
+    "C:\\Users\\Raymar\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.2.3\\fluentvalidation.dependencyinjectionextensions.10.2.3.nupkg.sha512",
     "C:\\Users\\Raymar\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\Raymar\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
-    "C:\\Users\\Raymar\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\Raymar\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
     "C:\\Users\\Raymar\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512"
   ],
   "logs": []

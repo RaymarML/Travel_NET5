@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "n0vxvABlnS5sd7ebEajzOX7TOBef0pnhNXYKwGNjyZGS06vs66BR8sHg7+regyFUX+qjNm9hb4ulwYhsDHG2vg==",
+  "dgSpecHash": "yXbVkeXxJgi4k9yLiCq8cGI8oJep2U5OHzQfYs0lZJ/HCvyr3QsITrqmOaoBRJUO1903sjkWxPgHAZuAp3OwOg==",
   "success": true,
   "projectFilePath": "D:\\DEVELOPMENT\\C#\\PROJECTS\\Travel\\src\\presentation\\Travel.WebApi\\Travel.WebApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Raymar\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512",
+    "C:\\Users\\Raymar\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.2.3\\fluentvalidation.dependencyinjectionextensions.10.2.3.nupkg.sha512",
     "C:\\Users\\Raymar\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Raymar\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\Raymar\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
