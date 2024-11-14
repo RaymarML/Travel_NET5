@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using MediatR;
 using Microsoft.Extensions.Logging;
 
-namespace Travel.Application.Common
+namespace Travel.Application.Common.Behaviors
 {
   public class PerformanceBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
   {
