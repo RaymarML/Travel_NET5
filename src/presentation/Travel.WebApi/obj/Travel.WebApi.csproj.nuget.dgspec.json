@@ -173,6 +173,9 @@
               },
               "D:\\DEVELOPMENT\\C#\\PROJECTS\\Travel\\src\\core\\Travel.Domain\\Travel.Domain.csproj": {
                 "projectPath": "D:\\DEVELOPMENT\\C#\\PROJECTS\\Travel\\src\\core\\Travel.Domain\\Travel.Domain.csproj"
+              },
+              "D:\\DEVELOPMENT\\C#\\PROJECTS\\Travel\\src\\infrastructure\\Travel.Shared\\Travel.Shared.csproj": {
+                "projectPath": "D:\\DEVELOPMENT\\C#\\PROJECTS\\Travel\\src\\infrastructure\\Travel.Shared\\Travel.Shared.csproj"
               }
             }
           }
@@ -235,6 +238,9 @@
             "projectReferences": {
               "D:\\DEVELOPMENT\\C#\\PROJECTS\\Travel\\src\\core\\Travel.Application\\Travel.Application.csproj": {
                 "projectPath": "D:\\DEVELOPMENT\\C#\\PROJECTS\\Travel\\src\\core\\Travel.Application\\Travel.Application.csproj"
+              },
+              "D:\\DEVELOPMENT\\C#\\PROJECTS\\Travel\\src\\core\\Travel.Domain\\Travel.Domain.csproj": {
+                "projectPath": "D:\\DEVELOPMENT\\C#\\PROJECTS\\Travel\\src\\core\\Travel.Domain\\Travel.Domain.csproj"
               }
             }
           }
@@ -248,6 +254,24 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[27.1.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[2.13.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[2.13.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

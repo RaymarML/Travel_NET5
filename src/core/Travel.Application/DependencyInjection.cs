@@ -9,7 +9,7 @@ namespace Travel.Application
 {
   public static class DependencyInjection
   {
-    public static IServiceCollection AddApplication(this IServiceCollection services)
+    public static IServiceCollection AddCoreApplication(this IServiceCollection services)
     {
       services.AddAutoMapper(Assembly.GetExecutingAssembly());
       services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
