@@ -34,7 +34,7 @@ namespace Travel.Data.Migrations
                     Price = table.Column<float>(type: "REAL", nullable: false),
                     Duration = table.Column<int>(type: "INTEGER", nullable: false),
                     InstantConfirmation = table.Column<bool>(type: "INTEGER", nullable: false),
-                    currency = table.Column<int>(type: "INTEGER", nullable: false)
+                    Currency = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {

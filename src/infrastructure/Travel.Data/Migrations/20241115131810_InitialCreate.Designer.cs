@@ -7,8 +7,8 @@ using Travel.Data.Contexts;
 
 namespace Travel.Data.Migrations
 {
-    [DbContext(typeof(TravelDbContext))]
-    [Migration("20241110152723_InitialCreate")]
+    [DbContext(typeof(ApplicationDbContext))]
+    [Migration("20241115131810_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -43,6 +43,9 @@ namespace Travel.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<int>("Currency")
+                        .HasColumnType("INTEGER");
+
                     b.Property<int>("Duration")
                         .HasColumnType("INTEGER");
 
@@ -63,9 +66,6 @@ namespace Travel.Data.Migrations
 
                     b.Property<string>("WhatToExpect")
                         .HasColumnType("TEXT");
-
-                    b.Property<int>("currency")
-                        .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
 

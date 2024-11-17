@@ -12,7 +12,7 @@ namespace Travel.Domain.Entities
         public float Price { get; set; }
         public int Duration { get; set; }
         public bool InstantConfirmation { get; set; }
-        public Currency currency { get; set; }
+        public Currency Currency { get; set; }
         public TourList List { get; set; }
     }
 }
