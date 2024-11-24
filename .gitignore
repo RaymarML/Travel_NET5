@@ -1,10 +1,4 @@
-src/core/Travel.Application/bin
-src/core/Travel.Application/obj
-src/core/Travel.Domain/bin
-src/core/Travel.Domain/obj
-src/infrastructure/Travel.Data/bin
-src/infrastructure/Travel.Data/obj
-src/infrastructure/Travel.Shared/bin
-src/infrastructure/Travel.Shared/obj
-src/presentation/Travel.WebApi/bin
-src/presentation/Travel.WebApi/obj
+*/**/bin/Debug
+*/**/bin/Release
+*/**/obj/Debug
+*/**/obj/Release
